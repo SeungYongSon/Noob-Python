@@ -93,10 +93,10 @@ print(a.get('name'))
 print(a.get("joke"))
 
 # 딕셔너리 안에 찾으려는 Key 값이 없을 경우
-# 미리 정해 둔 디폴트 값을 대신 가져오게 하고 싶으면 get(x, "디폴트 값")을 사용하면 편리하다
+# 미리 정해 둔 디폴트 값을 대신 가져오게 하고 싶으면 get(x, "디폴트 값")을 사용하면 편리하다.
 print(a.get("joke", "404"))
 
 # 해당 Key가 딕셔너리 안에 있는지 조사하기 in
-a = {'name':'pey', 'phone':'0119993323', 'birth': '1118'}
+a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
 print('name' in a)  # 있으면 True 반환
 print('joke' in a)  # 없으면 false 반환
