@@ -29,7 +29,7 @@ def say():
 def sum(a, b):
     print("{0} + {1} = {2}".format(a, b, a + b))
 
-# 입력값도 결과갑도 없는 함수
+# 입력값도 결과값도 없는 함수
 def say():
     print('Hi')
 
