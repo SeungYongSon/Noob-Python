@@ -44,13 +44,14 @@ user2 = Profile('파이션112312312', 'funcamera12312', "img3", "I LIke C#")
 
 print("User count: %d" % Profile.user_count)
 
-print(user1.print_profile())
+user1.print_profile()
 
 print(user1.change_profile('ppap13123213', '파이션12345', 'img44', 'I Like JAVA'))
-print(user1.print_profile())
+user1.print_profile()
+
 
 print(user1.change_profile('aapa12312312', '파이션시러', 'img666', 'I Like C++'))
-print(user1.print_profile())
+user1.print_profile()
 
 del user1
 print("User count: %d" % Profile.user_count)  # 이걸 통해 user1이 삭제되었다는 것을 알 수 있다.
